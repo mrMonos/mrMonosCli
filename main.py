@@ -1,4 +1,4 @@
-from colors import *
+from colors import red
 commands = dict()
 PROMPT = "(CMD-3)"
 __all__ = "CMD-3.0"
@@ -21,7 +21,7 @@ class CMD():
         try:
             self.command = prasedline[0]
         except:
-            print("You have not given an order to execute")
+            print(red("You have not given an order to execute"))
         del prasedline[0]
         self.args = prasedline
         try:
