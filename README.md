@@ -1,6 +1,4 @@
-# Temporarily it dosen't exist
-
-# CMD-3.0
+# mcli
 
 It's an public package published on PyPi: https://pypi.org/project/CMD-3.0/
 
@@ -8,13 +6,13 @@ It's an public package published on PyPi: https://pypi.org/project/CMD-3.0/
 
 On Windows use command:
 
-`pip install CMD-3.0`
+`pip install mcli`
 
 It will download lastest package version.
 
 On Linux/MacOS use:
 
-`$ pip3 install CMD-3.0`
+`$ pip3 install mcli`
 
 ## Docs
 
