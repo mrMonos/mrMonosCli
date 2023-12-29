@@ -1,18 +1,18 @@
-# mcli
+# mrMonosCli
 
-It's an public package published on PyPi: https://pypi.org/project/CMD-3.0/
+It's an public package published on PyPi: https://pypi.org/project/mrMonosCli/
 
 ## How to install 
 
 On Windows use command:
 
-`pip install mcli`
+`pip install mrMonosCli`
 
 It will download lastest package version.
 
 On Linux/MacOS use:
 
-`$ pip3 install mcli`
+`$ pip3 install mrMonosCli`
 
 ## Docs
 
