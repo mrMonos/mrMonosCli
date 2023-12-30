@@ -41,13 +41,14 @@ It also have two parameters of class:
 
 ## Example
 
-      from main import CMD
-      class MyCMD(CMD):
-        def greet(self,name):
-          print(f"Hello {name}!")
-        def __init__(self):
-            super().__init__()
-            self.add_func_to_reg("greet",self.greet,"Shows greeting",True,1)
+      from mcli import main
+      class MyCMD(main.CMD):
+          def greet(self,name):
+              print(f"Hello {name}!")
+          def __init__(self):
+              super().__init__()
+              self.add_func_to_reg("greet",self.greet,"Shows greeting",True,1)
+      MyCMD().main_loop()
 
 Start it. Type `greet John`.
 
