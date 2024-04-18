@@ -50,12 +50,33 @@ It also have two parameters of main class:
               self.add_func_to_reg("greet",self.greet,"Shows greeting",True,1)
       MyCMD().main_loop()
 
-Start it. Type `greet John`.
+Start it. 
+### Output
+      Welcome in CMD!
+      CMD>
+      
+Type `greet John`.
 
 ### Output
       Welcome in CMD!
       CMD>greet John
       Hello John!
+      
+Then type `greet John|greet Steve`.
+### Output
+      CMD>greet John|greet Steve
+      Hello John!
+      Hello Steve!
+You can also type `help greet`.
+### Output
       CMD>help greet
       Shows greeting
       CMD>
+# Version book:
+- ## 0.1.0
+  Package has been released.
+- ## 0.1.1
+  Some bugs have been fixed.
+- ## 0.1.2 (Current)
+  Some bugs have been fixed.
+- ## 0.2.0 (In work)
