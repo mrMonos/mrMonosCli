@@ -21,16 +21,16 @@ It has only one build-in function you can (and should) use.
 
 `add_func_to_reg()`
 
-This function make function available to call from CLI.
+This function make yourself defined function available to call from CLI.
 
 Arguments in order:
-- command (str) => It will be available point to function 
-- function (func) => It is function what code execute on command ***It have to be without parentheses*** 
+- command (str) => It will be available point to your function 
+- function (func) => It is yourself defined function what code is executing on command ***It have to be without parentheses*** 
 - description (str) => This will be showing on help command 
 - **optional** Arguments (bool) => It informs about arguments existing 
 - **optional** Number of arguments (int) => It informs about number of arguments 
 
-It also have two parameters of class:
+It also have two parameters of main class:
 
 `prompt` and `intro`
 
