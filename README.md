@@ -27,8 +27,8 @@ Arguments in order:
 - command (str) => It will be available point to your function 
 - function (func) => It is yourself defined function what code is executing on command ***It have to be without parentheses*** 
 - description (str) => This will be showing on help command 
-- **optional** Arguments (bool) => It informs about arguments existing 
-- **optional** Number of arguments (int) => It informs about number of arguments 
+- **optional** Arguments (bool) => It informs about arguments existing (***Do not include "self" arg***)
+- **optional** Number of arguments (int) => It informs about number of arguments (***Do not include "self" arg***)
 
 It also have two parameters of main class:
 
